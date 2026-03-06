@@ -225,28 +225,29 @@ const ServicesPreview = () => (
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       {[
+        [
         {
-          title: "Solo Adventures",
-          slug: "solo-adventures",
-          desc: "Curated solo itineraries that connect you with authentic local experiences and fellow travelers.",
+          title: "LTC Packages",
+          slug: "service-1",
+          desc: "Govt approved 100% compliant LTC tour packages for state and central government employees.",
           image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=600&q=80"
         },
         {
-          title: "Honeymoons + Romance",
-          slug: "romance",
-          desc: "Dreamy getaways with candlelight dinners, private beaches, and handpicked boutique stays.",
+          title: "Corporate Tours",
+          slug: "service-2",
+          desc: "End-to-end management for offsites, including GST invoicing, dedicated fleet managers, and team building.",
           image: "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=600&q=80"
         },
         {
-          title: "Family + Group",
-          slug: "family-group",
-          desc: "Kid-friendly activities, multi-room stays, and seamlessly coordinated group logistics.",
+          title: "Underwater Activities",
+          slug: "service-3",
+          desc: "Safe and guided sea walking, snorkeling, and semi-submarine tours across Coral Reefs.",
           image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=600&q=80"
         },
         {
-          title: "Corporate + MICE",
-          slug: "weddings-events",
-          desc: "GST invoicing, dedicated fleet managers, and end-to-end corporate event coordination.",
+          title: "Ferry Tickets",
+          slug: "service-4",
+          desc: "Priority ferry and cruise ticket clearance across Swaraj Dweep and Shaheed Dweep.",
           image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80"
         }
       ].map((service, i) => (
@@ -796,10 +797,8 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl leading-tight mb-8">
             Explore. Experience. Escape.
           </h2>
-          <p className="text-lg text-ink/70 leading-relaxed">
-            At Explorateur, we believe travel should be more than just a trip — it should be a soulful experience.
-            From our first consultation to the moment you return home, we are your personal advocate for stress-free,
-            unforgettable vacations. Your journey is our responsibility.
+          <p className="text-lg text-ink/70 leading-relaxed font-medium">
+            Welcome to Discover Andaman, an Andaman local tour operator approved by Ministry of Tourism, GOI. We offer premium LTC packages, group tours, and underwater adventures.
           </p>
           <div className="mt-12">
             <Link to="/about" className="btn-outline">Learn Our Story</Link>
