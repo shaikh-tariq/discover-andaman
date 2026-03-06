@@ -167,7 +167,7 @@ const WhyChooseUs = () => (
           { icon: <Heart className="w-8 h-8" />, title: "Guided Sea Walking", desc: "Safe, guided underwater coral reef tours including snorkeling and semi-submarine experiences for non-swimmers." },
           { icon: <Clock className="w-8 h-8" />, title: "Flexible Installments", desc: "We understand group budgets. Pay your booking in easy split installments via all major Indian payment gateways." },
           { icon: <Award className="w-8 h-8" />, title: "Ministry of Tourism Approved", desc: "A distinguished operator officially recognized by the Ministry of Tourism, Government of India." }
-        ]].map((item, i) => (
+        ].map((item, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, y: 20 }}
