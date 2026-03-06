@@ -105,15 +105,9 @@ const Hero = () => {
           </span>
         </div>
 
-        <h1 className="text-6xl md:text-8xl text-white mb-6 leading-[0.9]">
-          Your Journey, <br />
-          <span className="font-script text-accent italic">Our Responsibility</span>
-        </h1>
+        <h1 className="text-6xl md:text-8xl text-white mb-6 leading-[0.9]">Discover Andaman <br /> <span className="font-script text-accent italic">Govt. Approved Tours</span></h1>
 
-        <p className="text-white/90 text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto tracking-wide">
-          Handcrafted itineraries. Verified local guides. <br className="hidden md:block" />
-          No hidden charges. Just unforgettable experiences.
-        </p>
+        <p className="text-white/90 text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto tracking-wide">100% compliant LTC tour packages for government employees. Experience safe underwater activities, priority ferry bookings, and seamless end-to-end corporate trips in Andaman.</p>
 
         <div className="glass-card p-2 md:p-4 max-w-5xl mx-auto flex flex-col md:flex-row gap-4 items-center shadow-2xl">
           <div className="flex-1 w-full grid grid-cols-1 md:grid-cols-3 gap-2">
@@ -162,42 +156,18 @@ const WhyChooseUs = () => (
     <div className="max-w-7xl mx-auto">
       <div className="text-center mb-16">
         <span className="text-[11px] uppercase tracking-[0.3em] font-display font-bold text-accent mb-4 block">Why Travelers Trust Us</span>
-        <h2 className="text-5xl md:text-6xl">Your trip, done right</h2>
+        <h2 className="text-5xl md:text-6xl">Trusted by Government & Groups</h2>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {[
-          {
-            icon: <Shield className="w-8 h-8" />,
-            title: "No Hidden Charges",
-            desc: "Transparent pricing from day one. The price we quote is the price you pay — no surprise fees, no last-minute add-ons."
-          },
-          {
-            icon: <Headphones className="w-8 h-8" />,
-            title: "24/7 On-Trip Support",
-            desc: "Our dedicated travel desk is available round the clock while you're traveling. One call and we handle everything."
-          },
-          {
-            icon: <CheckCircle className="w-8 h-8" />,
-            title: "Verified Local Partners",
-            desc: "Every hotel, guide, and driver in our network is personally vetted. We only work with the best on the ground."
-          },
-          {
-            icon: <Heart className="w-8 h-8" />,
-            title: "Customized Itineraries",
-            desc: "No cookie-cutter tours. Every trip is personally designed around your interests, pace, and budget."
-          },
-          {
-            icon: <Clock className="w-8 h-8" />,
-            title: "Flexible Payment Options",
-            desc: "Book with a small deposit and pay the rest later. We offer EMI options and accept all major payment methods."
-          },
-          {
-            icon: <Award className="w-8 h-8" />,
-            title: "Govt. Approved Operator",
-            desc: "We are a registered and Ministry of Tourism approved tour operator with 10+ years of trusted operations."
-          }
-        ].map((item, i) => (
+          { icon: <Shield className="w-8 h-8" />, title: "100% LTC Compliant", desc: "Fully authorized LTC tour packages meticulously designed for state and central government employees with GST billing." },
+          { icon: <Headphones className="w-8 h-8" />, title: "Priority Ferry Clearance", desc: "Secured, VIP ferry and cruise ticket clearances across Swaraj Dweep (Havelock) and Shaheed Dweep (Neil)." },
+          { icon: <CheckCircle className="w-8 h-8" />, title: "Corporate Offsites", desc: "End-to-end management for corporate groups, including dedicated fleet managers and large-scale team building events." },
+          { icon: <Heart className="w-8 h-8" />, title: "Guided Sea Walking", desc: "Safe, guided underwater coral reef tours including snorkeling and semi-submarine experiences for non-swimmers." },
+          { icon: <Clock className="w-8 h-8" />, title: "Flexible Installments", desc: "We understand group budgets. Pay your booking in easy split installments via all major Indian payment gateways." },
+          { icon: <Award className="w-8 h-8" />, title: "Ministry of Tourism Approved", desc: "A distinguished operator officially recognized by the Ministry of Tourism, Government of India." }
+        ]].map((item, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, y: 20 }}
